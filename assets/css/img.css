@@ -1,0 +1,26 @@
+
+.tinta__{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 270px;
+    border-radius: 5px;
+}
+.tinta__1{
+    background-image: url("https://global-uploads.webflow.com/6289611da920a9dcceb13ec8/630cfea502200797f95755f5_plastisol.jpg");
+}
+.tinta__2{
+    background-image: url("https://global-uploads.webflow.com/6289611da920a9dcceb13ec8/630cff7147a83fe2469b7896_waterbase.jpg");
+}
+.tinta__3{
+    background-image: url("https://global-uploads.webflow.com/6289611da920a9dcceb13ec8/630cff92561e711acf32080b_discharge.jpg");
+}
+.tinta__4{
+    background-image: url("https://global-uploads.webflow.com/6289611da920a9dcceb13ec8/630cffb074b7098dc7d9b9fe_softhand.jpg");
+}
+.tinta__5{
+    background-image: url("https://global-uploads.webflow.com/6289611da920a9dcceb13ec8/630d003e310db07cc4b26c02_glow.jpg");
+}
+.tinta__6{
+    background-image: url("https://global-uploads.webflow.com/6289611da920a9dcceb13ec8/630cffc331447da7d7800542_metallic.jpg");
+}

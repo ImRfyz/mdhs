@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html {
+  font-family: 'Poppins', sans-serif !important;
+}
+nav.scrolled .fil0 {
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(14px);
+    background: #00000038;
+    fill: #fff;
+}
+.nav-custom {
+  width: 250px;
+  height: auto;
+}
+.bg-custom-a1{
+    background: #1a1a1a;
+}
+.sec-logo {
+    margin-top: -100px;
+    background: #0000;
+    margin-bottom: -100px;
+    padding: 0 15px;
+}
+.tagged {
+  width: 19px;
+  border: 2px solid;
+  margin: 1px 0;
+}
+
+.igp {
+  background: #8dd3df;
+  background-image: url(https://raw.githubusercontent.com/ImRfyz/img/main/hero.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: auto;
+  border-radius: 9999px;
+}
+@media only screen and (max-width: 767px) {
+  .igp {
+    background-size: 38px;
+    width: 74px;
+    height: 74px;
+  }
+  .hidden-m{
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .igp {
+    background-size: 76px;
+    width: 150px;
+    height: 150px;
+}
+}
+/*img css*/
+.t-shirt-home{
+    background-image: url("https://raw.githubusercontent.com/ImRfyz/img/main/tshirt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 540px;
+    height: 303px;
+}
+.logo-brand{
+    background-image: url("https://raw.githubusercontent.com/ImRfyz/img/main/icon-114x114.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+/*Slider*/
+.item{
+    border-radius: 8px;
+    background-image: url("https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.slider {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  
+  .slider::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slider .slide {
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: 0.3s left ease-in-out;
+  }
+  
+  .slider .item {
+    margin-right: 10px;
+  }
+  
+  .slider .item:last-child {
+    margin-right: 0;
+  }
+  
+  .ctrl {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .ctrl-btn {
+    padding: 20px 20px;
+    min-width: 50px;
+    background: #fff;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+  
+    position: absolute;
+    top: 50%;
+    margin-top: -27.5px;
+  }
+.z-min-1{
+  z-index: -1;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.text-ccc{
+  color: #ccc;
+}
+
+/*--LOGO--*/
+.fil0 {fill:#ccc}
+.fil0-lm{fill: #000;}
+.logo{
+    width: 162px;
+}
+/*--HERO--*/
+.fil-h3 {fill:#FEFEFE}
+.fil-h1 {fill:#FEF2A8}
+.fil-h0 {fill:#FAE15D}
+.fil-h2 {fill:#C78A69}
+.fil-h4 {fill:black}
+.fil-h5 {fill:#FAE15D;fill-rule:nonzero}
+.hero{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+/**-skeleton-**/
+
+.skeleton {
+  fill: #ccc!important;
+  border-radius: 15px !important;
+  color: #0000 !important;
+  background-image: linear-gradient(to right, #ccc, #ccc) !important;
+  background-size: 200% 100% !important;
+}
+
+
+/* remove bootstrap gutter*/
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.img-featured-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.img-featured-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.img-featured-container .img-backdrop {
+  background: linear-gradient(135deg, rgba(38, 163, 255, 0.85), rgba(83, 201, 179, 0.85));
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.img-featured-container:hover > .img-backdrop {
+  opacity: 1;
+  border-radius: 10px;
+}
+
+/* center text horizontally and vertically on image hover */
+.img-featured-container .description-container {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.2;
+  padding: 0 30px;
+  text-align: center;
+  line-height: 20px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  z-index: 2;
+  opacity: 0;
+  transition: all .2s ease;
+}
+
+.img-featured-container .description-container .fa-instagram {
+  font-size: 40px;
+}
+
+.img-featured-container .description-container p {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.img-featured-container:hover .description-container {
+  opacity: 1;
+}
+
+.img-featured-container .description-container .caption {
+  display: none;
+  margin-bottom: 10px;
+}
+
+.img-featured-container .description-container .likes,
+.img-featured-container .description-container .comments {
+  margin: 0 5px;
+}
+
+/* load more button */
+#btn-instafeed-load {
+  color: #fff;
+  background: #26a3ff;
+  font-size: 16px;
+  margin: 20px auto;
+  padding: 8px 40px;
+  display: block;
+  border: none;
+}
+
+/* media queries  */
+@media screen and (min-width:768px) {
+  .img-featured-container .description-container .caption {
+    display: block;
+  }
+}
+
+/**display none image ig**/
+a#\31 7986538638575729 {
+  display: none;
+}
+
+a#\31 7921065829591158 {
+  display: none;
+}
+
+a#\31 7904354194635129 {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  a#\31 7920743014588199 {
+    display: none;
+  }
+}
